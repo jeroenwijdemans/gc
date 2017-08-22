@@ -1,0 +1,16 @@
+name: gc
+version: "1.0"
+author: Jeroen <jeroenwijdemans@gmail.com>
+about: Keeps an overview of all git projects.
+args:
+    - location:
+        short: l
+        long: location
+        value_name: FILE
+        help: when loading git repo's
+        required: true
+        takes_value: true
+    - verbose:
+        short: v
+        multiple: true
+        help: Sets the level of verbosity
